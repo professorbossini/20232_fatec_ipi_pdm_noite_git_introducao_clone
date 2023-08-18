@@ -8,4 +8,6 @@ def multiplicar(a, b):
   return a * b
 
 def dividir(a, b):
-  return a // b
+  if b != 0:
+    return a // b
+  print('O denominador deve ser diferente de zero')
